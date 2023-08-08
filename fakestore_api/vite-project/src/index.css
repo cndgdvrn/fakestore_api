@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.paginate{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4px;
+}
+
+.paginate li {
+    padding: 4px 8px;
+    background-color: #fdfdfd;
+    border: 1px solid rgb(187, 187, 187);
+    color:black
+}
+
+.paginate li:hover{
+    background: bisque;
+    transition-duration: 400;
+}
+
+.addToCart{
+    border: 1px solid black;
+    width: 128px;
+    justify-content: center;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addToCart:hover{
+    background-color: tomato;
+    color: white;
+    border-color: tomato;
+    cursor: pointer;
+}
+
+.brdr{
+    border-bottom: 1px solid black;
+    border-radius: 12px;
+}
